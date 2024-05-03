@@ -21,6 +21,6 @@
         "regex": "v(\\d+\\.\\d+\\.\\d+[?<patch>\\+\\d+])"
     },
     "autoupdate": {
-        "url": "https://github.com/jiangtian616/JHenTai/releases/download/v$version/JHenTai_$version$matchpatch_Windows.zip"
+        "url": "https://github.com/jiangtian616/JHenTai/releases/download/v$version/JHenTai_$version+$matchpatch_Windows.zip"
     }
 }
