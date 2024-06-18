@@ -1,26 +1,18 @@
 {
-    "version": "7.5.3+207",
-    "description": "An E-Hentai app for Android & iOS & Windows & MacOS & Linux.",
-    "homepage": "https://github.com/jiangtian616/JHenTai",
+    "version": "8.11.5",
+    "description": "个性化您的游戏体验,为您最喜欢的游戏提供上千款免费修改器 - 全部都集成在一个地方。",
     "license": "Apache-2.0",
-    "url": "https://github.com/jiangtian616/JHenTai/releases/download/v7.5.3/JHenTai_7.5.3+207_Windows.zip",
-    "hash": "9566c7dce240e6d3c340d5b590af147fa250286cae95ac4982d67cfdbfd8c2d6",
-    "bin": "jhentai.exe",
+    "url": "https://github.com/zxcvbnmip/my-bucket/releases/download/v1.0/WeMod_8.11.5.zip",
+    "hash": "9d2db41d1711c9fd3caf8ef7f91af9bd02a6613e9226c36db29dfd2ff3b909cc",
+    "bin": "WeMod.exe",
     "pre_install": [
-        "Move-Item -Path \"$dir\\JHenTai_*\\*\" -Destination \"$dir\"",
-        "Remove-Item \"$dir\\JHenTai_*\" -Force -Recurse"
+        "Move-Item -Path \"$dir\\WeMod_*\\*\" -Destination \"$dir\"",
+        "Remove-Item \"$dir\\WeMod_*\" -Force -Recurse"
     ],
     "shortcuts": [
         [
-            "jhentai.exe",
-            "JHenTai"
+            "WeMod.exe",
+            "WeMod"
         ]
     ],
-    "checkver": {
-        "url": "https://github.com/jiangtian616/JHenTai/releases/latest",
-        "regex": "v(\\d+\\.\\d+\\.\\d+[?<patch>\\+\\d+])"
-    },
-    "autoupdate": {
-        "url": "https://github.com/jiangtian616/JHenTai/releases/download/v$version/JHenTai_$version+$matchpatch_Windows.zip"
-    }
 }
